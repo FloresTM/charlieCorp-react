@@ -1,0 +1,38 @@
+.inicio {
+    width: 80%;
+    margin: 40px auto 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0 100px 0;
+    font-size: 20px;
+}
+
+.opcion {
+    flex-basis: 100%;
+    margin: 0 30px;
+    border: 1px solid rgba(158, 158, 158, 0.651);
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px -6px rgba(0, 0, 0, 0.75);
+
+}
+
+.opcion > h4 {
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.imagen {
+    width: 150px;
+}
+
+
+.opcion-texto {
+    padding: 10px;
+    border-top: 1px solid rgba(218, 215, 215, 0.979);
+}
