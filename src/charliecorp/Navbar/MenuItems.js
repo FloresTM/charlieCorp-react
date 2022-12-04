@@ -15,6 +15,11 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
+        title: 'Siguientes Pasos',
+        url: '/siguientes-pasos',
+        cName: 'nav-links'
+    },
+    {
         title: 'Datos',
         url: 'http://localhost/charlie_corp_dos/',
         cName: 'nav-links'

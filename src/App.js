@@ -12,6 +12,7 @@ import NuestroProyecto from './charliecorp/NuestroProyecto';
 //import {Modal, ModalBody, ModalFooter, ModalHeader} from 'reactstrap';
 import MostrarDatos from './charliecorp/MostrarDatos';
 import Graficas from './charliecorp/Graficas';
+import SiguientesPasos from './charliecorp/SiguientesPasos';
 
 
 function App() {
@@ -51,10 +52,14 @@ function App() {
 
         <Switch>
 
-
         <Route path="/graficas">
           <Navbar />
           <Graficas />
+        </Route>
+
+        <Route path="/siguientes-pasos">
+          <Navbar />
+          <SiguientesPasos />
         </Route>
 
         <Route path="/mostrar-datos">

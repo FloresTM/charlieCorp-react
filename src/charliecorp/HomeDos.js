@@ -29,7 +29,7 @@ function HomeDos() {
 
             <div className='cover_derecha_izquierda'>
               <h1 className='titulo_proeycto_cover'>AUTOCooling</h1>
-              <h3 className='lema_proyecto'>'Lema del Proyecto'</h3>
+              <h3 className='lema_proyecto'>Cuida tus frenos, cuida tu vida</h3>
             </div>
           </div>
         </div>

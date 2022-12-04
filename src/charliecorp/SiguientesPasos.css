@@ -1,0 +1,67 @@
+.seccion_siguientes_pasos {
+    background-image: url(https://www.wallpapertip.com/wmimgs/13-133086_windows-8-background.jpg);
+    height: 100vh; 
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.titulo_seccion_siguientes_pasos {
+    text-align: center;
+    font-family: 'Bold';
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 300;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.subseccion_siguientes_pasos {
+    background-color: #fff;
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 50px;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion_subseccion {
+    display: flex;
+    margin: 5px 70px;
+}
+
+.separador {
+    border: 1px solid rgba(97, 90, 90, 0.185);
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.informacion_subseccion_numeros {
+    font-size: 1.7vw;
+    font-weight: 600;
+    position: sticky;
+    text-align: center;
+    height: calc(3.5vw);
+    transition: all 0.2s ease-in;
+    margin-right: 30px;
+    color: #14619e;
+}
+
+.informacion_subseccion_dato {
+    font-size: 1.5vw;
+    font-weight: 600;
+    position: sticky;
+    text-align: center;
+    height: calc(2vw);
+    transition: all 0.2s ease-in;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.blank {
+    margin-top: 50px;
+}
